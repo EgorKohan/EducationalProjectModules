@@ -1,0 +1,21 @@
+spring:
+  profiles:
+    active: idp
+
+github:
+  client:
+    clientId: 0963e87c05ee82c2db50
+    clientSecret: e081456d2df622371cf7402e2f210fa21e474bc5
+    userAuthorizationUri: https://github.com/login/oauth/authorize
+    accessTokenUri: https://github.com/login/oauth/access_token
+    clientAuthenticationScheme: form
+  resource:
+    userInfoApi: https://api.github.com/user
+    repoUri: https://api.github.com/repos
+
+idp:
+  client:
+    accessTokenUri: http://identity-management-idp.cloud.dev-dtsdx.openshift.sdntest.netcracker.com/token
+    clientId: f5075421-fe73-4971-bd8e-e29c41cefda6
+    clientSecret: NV1QWuSh5sUJdi6QKCiSywp43pIQyj_Z3xliNt7Fnx0N9Odl14-ildvJ16ZEgGjNZK1qjPicAbZdihlRwH-i3Q
+    grantType: client_credentials

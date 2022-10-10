@@ -1,0 +1,8 @@
+jwt:
+  secret:
+    access: supermegasecret
+    refresh: supermegarefreshsecret
+
+server:
+  error:
+    include-message: always

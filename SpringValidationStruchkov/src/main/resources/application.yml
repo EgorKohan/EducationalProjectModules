@@ -1,0 +1,5 @@
+app:
+  properties:
+    name: myApp
+    reportIntervalInDays: 15
+    reportEmailAddress: asd@mail.com

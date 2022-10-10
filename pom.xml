@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.3.12.RELEASE</version>
+    </parent>
+
+    <groupId>org.example</groupId>
+    <artifactId>EducationalProjectModules</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>SpringProfilesAndYaml</module>
+        <module>SpringCircuralDependencies</module>
+        <module>Timer</module>
+        <module>Patterns</module>
+        <module>NullSafetyAnnotations</module>
+        <module>Lambdas</module>
+        <module>ComparingTwoHashMaps</module>
+        <module>JavaRushJwtInSpringBoot</module>
+        <module>SpringSecurityFilterChain</module>
+        <module>ConfigurationProperties</module>
+        <module>IntroductionToOAuth2RestTemplate</module>
+        <module>RestAssuredBaeldung</module>
+        <module>HamcrestBaeldung</module>
+        <module>SpringCacheHabrRus</module>
+        <module>MapStructBaeldung</module>
+        <module>SpringValidationStruchkov</module>
+        <module>ErrorHandlingForRESTBaeldung</module>
+        <module>SpringRestOpenapiBaeldung</module>
+        <module>SwaggerOpenApi3Habr</module>
+        <module>ApiSwaggerOpenAPI3Struchkov</module>
+        <module>SpringSecurity5Oauth2LoginBaeldung</module>
+        <module>HibernateOneToManyAnnotationTutorialBaeldung</module>
+        <module>HibernateJavarush</module>
+        <module>CascadeTypesSYSOUT</module>
+        <module>Test</module>
+        <module>CORSWithSpringBaeldung</module>
+        <module>SpringBootFileUpload</module>
+        <module>TestModelAttributeDate</module>
+        <module>JWTStruchkov</module>
+        <module>IntroductionToAwaitility</module>
+        <module>ServerSentEventsInSpring</module>
+        <module>ProjectReactorLetsCode</module>
+        <module>CsoSseFWTest</module>
+        <module>HazelcastDoc</module>
+        <module>ApacheCommonsBeanUtils</module>
+        <module>JetBulb</module>
+        <module>JdkJreJvmHabr471772</module>
+        <module>StringTopJava</module>
+        <module>JpaEmbeddedEmbeddableBaeldung</module>
+        <module>GuideToTheVolatileKeywordInJavaBaeldung</module>
+        <module>HibernateInheritanceMapping</module>
+        <module>HibernateLazyEagerLoading</module>
+        <module>ResourceAutowiredInjectRussianBlogs</module>
+        <module>SpringAOPкакработаетпроксированиеHabr</module>
+        <module>SpringAOPHabr428548</module>
+        <module>UnitTestingInJavaSpringKirya522Dev</module>
+        <module>SseEmitter</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>31.1-jre</version>
+        </dependency>
+    </dependencies>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
+</project>
